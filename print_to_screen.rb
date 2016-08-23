@@ -1,6 +1,6 @@
 number = 1
 100.times do
-	if number == 3
+	if number % 3 == 0
 		puts "Mined"
 	else 
 		puts number
@@ -9,10 +9,10 @@ number = 1
 end
 
 
-# x = 1
-# while x <= 100 do
-# 	puts x
-# 	x = x + 1
+# number = 1
+# while number <= 100 do
+# 	puts number
+# 	number = number + 1
 # end 
 
 # () parentheses
